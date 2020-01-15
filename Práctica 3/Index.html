@@ -8,9 +8,18 @@
   </head>
   <body>
     <h1>Listas HTML (Ordenadas y desordenasa)</h1>
+    <hr />
 
+    <h2>Listas</h2>
+    <ul>
+      <li><a href="#ul">Listas desordenadas</a></li>
+      <li><a href="#ol">Listas ordenadas</a></li>
+      <li><a href="#dl">Listas descriptivas</a></li>
+      <li><a href="#al">Listas anidads</a></li>
+      <li><a href="../Práctica 3/Páginas de estados/Aguascalientes.html#p3">Aguascalientes</a></li>
+    </ul>
     <!-- Listas listas desordenadqs-->
-    <ul style="list-style-type:circle;">
+    <ul id="ul" style="list-style-type:circle;">
       <li>Item 1</li>
       <li>Item 2</li>
       <li>Item 3</li>
@@ -51,85 +60,74 @@
       </li>
     </ul>
 
-      <a href="https://www.w3schools.com/html/html_lists.asp">
-        Listas en w3schools</a>
-      <br />
-      <a href="https://developer.mozilla.org/es/docs/Web/HTML/Referencia"
-        >Referencia HTML Mozill</a>
+    <a href="https://www.w3schools.com/html/html_lists.asp">
+      Listas en w3schools</a
+    >
+    <br />
+    <a href="https://developer.mozilla.org/es/docs/Web/HTML/Referencia"
+      >Referencia HTML Mozill</a
+    >
 
-      <ol type="I">
-          <!--Listas ordenadas-->
-        <li>
-          <p><a href="">Item de la lista </a></p>
-        </li>
-        <li>
-          <p><a href="">Item de la lista </a></p>
-        </li>
-        <!-- <li>
-          <p><a href="">Item de la lista </a></p>
-        </li>
-        <li>
-          <p><a href="">Item de la lista </a></p>
-        </li>
-        <li>
-          <p><a href="">Item de la lista </a></p>
-        </li>
-        <li>
-          <p><a href="">Item de la lista </a></p>
-        </li>
-        <li>
-          <p><a href="">Item de la lista </a></p>
-        </li>
-        <li>
-          <p><a href="">Item de la lista </a></p>
-        </li>
-        <li>
-          <p><a href="">Item de la lista </a></p>
-        </li>
-        <li>
-          <p><a href="">Item de la lista </a></p>
-        </li> -->
-      </ol>
-<hr>
-<!-- Listas descriptivas-->
-<dl>
-<dt>Termino</dt>
-<dd>Descripción</dd>
-<dt>HTML</dt>
-<dd>Lenguaje de etiquetado (marcado)</dd>
-<dt>CSS</dt>
-<dd>Lenguaje de estilos</dd>
-</dl>
+    <!--Listas ordenadas-->
+    <ol id="ol" type="I">
+      <li>
+        <p><a href="">Item de la lista </a></p>
+      </li>
+      <li>
+        <p><a href="">Item de la lista </a></p>
+      </li>
+    </ol>
+    <hr />
+    <!-- Listas descriptivas-->
+    <dl id="dl" > 
+      <dt>Termino</dt>
+      <dd>Descripción</dd>
+      <dt>HTML</dt>
+      <dd>Lenguaje de etiquetado (marcado)</dd>
+      <dt>CSS</dt>
+      <dd>Lenguaje de estilos</dd>
+    </dl>
 
-<!-- Listas anidadas -->
+    <!-- Listas anidadas -->
 
-<ol>
-    <li> <a href="../Práctica 3/Páginas de estados/aguascalientes.html">Aguascalientes</a>
+    <ol id="al" >
+      <li>
+        <a href="../Práctica 3/Páginas de estados/aguascalientes.html"
+          >Aguascalientes</a
+        >
         <ul>
-            <li><a href="">Gastronimía</a></li>
-            <ul><li>Bolillos</li>
+          <li><a href="">Gastronimía</a></li>
+          <ul>
+            <li>Bolillos</li>
             <li>chascas</li>
-            <li>lechón</li></ul>
+            <li>lechón</li>
+          </ul>
         </ul>
-    </li>
-    <li> <a href="../Práctica 3/Páginas de estados/Guanajuato.html">Guanajuato</a>
+      </li>
+      <li>
+        <a href="../Práctica 3/Páginas de estados/Guanajuato.html"
+          >Guanajuato</a
+        >
         <ul>
-            <li><a href="">Gastronimía</a></li>
-            <ul><li>Bolillos</li>
+          <li><a href="">Gastronimía</a></li>
+          <ul>
+            <li>Bolillos</li>
             <li>chascas</li>
-            <li>lechón</li></ul>
+            <li>lechón</li>
+          </ul>
         </ul>
-    </li>
-    <li> <a href="../Práctica 3/Páginas de estados/Jalisco.html">Jalisco</a>
+      </li>
+      <li>
+        <a href="../Práctica 3/Páginas de estados/Jalisco.html">Jalisco</a>
         <ul>
-            <li><a href="">Gastronimía</a></li>
-            <ul><li>Bolillos</li>
+          <li><a href="">Gastronimía</a></li>
+          <ul>
+            <li>Bolillos</li>
             <li>chascas</li>
-            <li>lechón</li></ul>
+            <li>lechón</li>
+          </ul>
         </ul>
-    </li>
-</ol>
-
-
+      </li>
+    </ol>
   </body>
 </html>
